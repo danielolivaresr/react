@@ -49,6 +49,7 @@ I'm a web dev stundent, currently studying DAW 🙌
 Passionate about learning modern web technologies and building awesome projects 🚀  
 
 Always eager to improve my skills and take on new challenges 💻  
+
 ---
 
 ## ⭐ If you like it...
