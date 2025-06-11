@@ -1,3 +1,6 @@
+import JS from './JS.jsx'
+
+
 const App = () => {
   const course = 'Half Stack application development'
   const parts = [
@@ -5,12 +8,18 @@ const App = () => {
     { name: 'Using props to pass data', exercises: 7 },
     { name: 'State of a component', exercises: 14 }
   ]
+  
+  parts.forEach(values => {   // Recorre el array parts y muestra por consola el objeto actual.
+    console.log(values)
+  })
+
 
   return (
     <div>
       <Header color='red' course={course} />
       <Content color='blue' parts={parts} />
       <Total color='green' parts={parts} />
+      <JS />
     </div>
   )
 }
