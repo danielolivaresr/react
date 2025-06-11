@@ -1,8 +1,5 @@
-# 🚀 My First React App
-
-Hey there! 👋 
-Let's learn some React!💻✨
-
+# 🚀 React-learning
+Currently learning React in order to build dynamic and responsive web applications that provide seamless user experiencies! ⚛️
 ---
 
 ## 🛠️ Technologies Used
@@ -36,11 +33,6 @@ This project is still in development. As I learn more about React, I plan to add
 
 ---
 
-## 📸 Preview (coming soon)
-
-
----
-
 ## 🧠 What I'm Learning
 
 - How JSX works
@@ -52,9 +44,11 @@ This project is still in development. As I learn more about React, I plan to add
 
 ## 🧑‍💻 About Me
 
-I'm a web dev stundent, currently studying DAW  🙌
-Passionate about learning modern web technologies and building awesome projects 🚀 
-Always eager to improve my skills and take on new challenges 💻
+I'm a web dev stundent, currently studying DAW 🙌  
+
+Passionate about learning modern web technologies and building awesome projects 🚀  
+
+Always eager to improve my skills and take on new challenges 💻  
 ---
 
 ## ⭐ If you like it...
