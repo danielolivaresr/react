@@ -1,4 +1,5 @@
 import JS from './JS.jsx'
+import Hello from './State.jsx'
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
       <Content color='blue' parts={parts} />
       <Total color='green' parts={parts} />
       <JS />
+      <Hello name='Ana' age='28'/>
     </div>
   )
 }
