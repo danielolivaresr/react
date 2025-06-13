@@ -20,6 +20,8 @@ const Hello = ({name, age}) => {
         const yearNow = new Date().getFullYear()
         return yearNow - age
     }
+        //const bornYear = () => new Date().getFullYear - age --SE PUEDE HACER EN UNA SOLA LÍNEA, YA QUE SOLO CONTIENE UNA INSTRUCCIÓN--
+
     return (
         <div>
             <p>

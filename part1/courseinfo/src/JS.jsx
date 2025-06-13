@@ -47,7 +47,8 @@ const result = sum(1, 2)    // Llama a la función sum con los argumentos 1 y 2,
 console.log(result)         // Muestra el resultado de la suma, que es 3.
 
 // Si solo hay un parámetro, se pueden omitir los paréntesis al definir la función.
-const square = p => p * p   // Función que recibe un parámetro p y devuelve su cuadrado.
+// const square = p => p * p  Función que recibe un parámetro p y devuelve su cuadrado.
+
 
 const arr = [1, 2, 3]
 const arrSquared = arr.map(p => p*p) // Utiliza el método map para crear un nuevo array arrSquared, que contiene los cuadrados de cada elemento del array original arr.
