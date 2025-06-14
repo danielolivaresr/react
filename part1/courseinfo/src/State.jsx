@@ -1,36 +1,29 @@
-/*const Hello = (props) => {
-    const bornYear = () => {                 //Expandir componente Hello para que adivine el año de nacimiento de la persona que recibe la bienvenida, función auxiliar
-        const yearNow = new Date().getFullYear()
-        return yearNow - props.age;
-    }
-    
-    return (
-        <div>
-            <p>
-                Hello {props.name}, you are {props.age} years old.
-            </p>
-            <p>So you were probably born in {bornYear()}</p>
-        </div>
-    )
-}*/
+                                            // Importamos el hook useState desde React para manejar el estado del componente
+import { useState } from 'react'
 
-//VERSIÓN CON DESESTRUCTURACIÓN DE PROPS, FORMA MÁS CÓMODA Y LEGIBLE DE ACCEDER A LAS PROPIEDADES DE UN OBJETO.
-const Hello = ({name, age}) => {
-    const bornYear = () => {
-        const yearNow = new Date().getFullYear()
-        return yearNow - age
-    }
-        //const bornYear = () => new Date().getFullYear - age --SE PUEDE HACER EN UNA SOLA LÍNEA, YA QUE SOLO CONTIENE UNA INSTRUCCIÓN--
+                                            // Definimos un componente funcional llamado State
+const State = () => {
 
-    return (
-        <div>
-            <p>
-                Hello {name}, you are {age} years old.
-            </p>
-            <p>So probably you were born in {bornYear()}</p>
-        </div>
-    )
+                                            // Declaramos una variable de estado llamada 'counter' con valor inicial 0,
+                                            // y una función 'setCounter' para actualizar su valor
+   const [counter, setCounter] = useState(0)
+
+                                            // Esta función se ejecuta después de 1 segundo (1000ms)
+                                            // y aumenta el valor de 'counter' en 1
+                                            // ⚠️ IMPORTANTE: Este setTimeout se ejecuta en cada renderizado,
+                                            // lo cual puede generar muchos temporizadores y causar un comportamiento inesperado
+   setTimeout(
+    () => setCounter(counter + 1),
+    10000000
+   )
+
+   console.log('rendering...', counter)     //Visualizar por consola los cambios de estado del contador
+
+                                            // Retornamos un div que muestra el valor actual del contador
+   return (
+       <div>{counter}</div>
+   )
 }
 
-
-export default Hello
+                                            // Exportamos el componente para poder usarlo en otras partes de la aplicación
+export default State

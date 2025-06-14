@@ -1,4 +1,4 @@
-import Hello from './State.jsx'
+import Hello from './Hello.jsx'
 
 const App = (props) => {
   const {counter} = props
